@@ -46,6 +46,7 @@ namespace PrintGrade
             Console.WriteLine("Student Name :" + FName + " " + LName);
             Console.Write("Your Marks :\n");
             Console.Write("Physics :" + Phy + "\tChemistry :" + Che + "\tBiolgy :" + Bio + "\tMathematics :" + Maths + "\tEnglish :" + Eng + "\tComputer :" + Comp+"\n");
+            Console.WriteLine("Percentage:{0}", per);
             if(per>40)
             {
                 Console.WriteLine("Grade: Fail");
